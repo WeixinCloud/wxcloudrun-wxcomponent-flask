@@ -6,16 +6,6 @@
 	"mem": 0.5,                                     // 容器规格-内存大小
 	"policyType": "cpu",                            // 扩缩容条件：CPU使用率
 	"policyThreshold": 60,                          // 扩缩容条件：使用率超过60%触发
-	"policyDetails": {
-		{
-			"PolicyType": "cpu",
-			"PolicyThreshold": 60
-		},
-		{
-			"PolicyType": "mem",
-			"PolicyThreshold": 60
-		}
-	},
 	"envParams": {},                                // 环境变量。可以有多个。
 	"customLogs": "stdout",                         // 日志采集路径
 	"initialDelaySeconds": 2,                        // 容器启动后延迟多久开始健康检查。默认值2秒。
